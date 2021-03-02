@@ -1,9 +1,10 @@
 {
 .appVersion = "1342";
 DisplayStrings = (
-"áàâäãå/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde/acircumflexacute/acircumflexdotbelow/acircumflexgrave/acircumflexhookabove/acircumflextilde/adotbelow/ahookabove"
+"áàâäãå/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde/acircumflexacute/acircumflexdotbelow/acircumflexgrave/acircumflexhookabove/acircumflextilde/adotbelow/ahookabove",
+"/space/nbspace"
 );
-copyright = "Copyright 2010 The Alex Brush Project Authors (https://github.com/googlefonts/allura)";
+copyright = "Copyright 2010 The Allura Project Authors (https://github.com/googlefonts/allura)";
 customParameters = (
 {
 name = trademark;
@@ -9022,6 +9023,19 @@ width = 327;
 );
 note = asciitilde;
 unicode = 007E;
+},
+{
+glyphname = nbspace;
+lastChange = "2021-03-02 20:42:45 +0000";
+layers = (
+{
+layerId = "F07FC137-599D-4028-8184-32064863B81C";
+width = 175;
+}
+);
+widthMetricsKey = space;
+note = space;
+unicode = 00A0;
 },
 {
 glyphname = exclamdown;
