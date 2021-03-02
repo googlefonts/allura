@@ -337,7 +337,7 @@ date = "2011-11-28 13:22:26 +0000";
 designer = "Robert E. Leuschke";
 designerURL = "http://www.typesetit.com";
 disablesNiceNames = 1;
-familyName = Allura;
+familyName = "Allura Pro";
 featurePrefixes = (
 {
 automatic = 1;
@@ -99204,16 +99204,7 @@ note = _0026;
 );
 instances = (
 {
-customParameters = (
-{
-name = postscriptFullName;
-value = AlluraPro;
-},
-{
-name = postscriptFontName;
-value = AlluraPro;
-}
-);
+interpolationWeight = 400;
 instanceInterpolations = {
 "F07FC137-599D-4028-8184-32064863B81C" = 1;
 };
