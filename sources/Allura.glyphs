@@ -338,7 +338,7 @@ date = "2011-11-28 13:22:26 +0000";
 designer = "Robert E. Leuschke";
 designerURL = "http://www.typesetit.com";
 disablesNiceNames = 1;
-familyName = "Allura Pro";
+familyName = Allura;
 featurePrefixes = (
 {
 automatic = 1;
@@ -444,31 +444,35 @@ capHeight = 700;
 customParameters = (
 {
 name = typoAscender;
-value = 750;
+value = 850;
 },
 {
 name = typoDescender;
-value = -250;
+value = -450;
 },
 {
 name = typoLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 832;
-},
-{
-name = winDescent;
-value = 491;
-},
-{
 name = hheaAscender;
-value = 750;
+value = 850;
 },
 {
 name = hheaDescender;
-value = -250;
+value = -450;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 900;
+},
+{
+name = winDescent;
+value = 500;
 },
 {
 name = strikeoutPosition;
