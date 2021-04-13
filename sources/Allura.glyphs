@@ -75,7 +75,8 @@ DisplayStrings = (
 "/foursuperior",
 "/commaturnedabovecomb.case",
 "/hungarumlautcomb.case",
-"/ldot"
+"/ldot",
+"Ch/uhorn a/space k/ecircumflexhookabove/space là/space mình/space còn/space có/space th/ecircumflexhookabove/space làm/space/dcroat/uhorn/ohorndotbelow c/space nh/uhorn/space th/ecircumflexacute/space n/uhorntilde a./space T/acircumflexacute t/space c/ahookabove/space/dcroat/ecircumflexgrave u/space là/space nh/uhorn/space v/acircumflexdotbelow y/space h/ecircumflexacute t."
 );
 copyright = "Copyright 2010 The Allura Project Authors (https://github.com/googlefonts/allura)";
 customParameters = (
@@ -407,7 +408,7 @@ Tag = wght;
 );
 }
 );
-date = "2011-11-28 13:22:26 +0000";
+date = "2021-04-13 12:55:37 +0000";
 designer = "Robert E. Leuschke";
 designerURL = "http://www.typesetit.com";
 disablesNiceNames = 1;
@@ -81073,5 +81074,5 @@ manufacturer = "Robert E. Leuschke";
 manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 2;
-versionMinor = 0;
+versionMinor = 1;
 }
