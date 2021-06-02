@@ -18,40 +18,21 @@ u,
 "",
 "/Odotbelow/Odotmacron",
 "´/acutecomb ác/cacute nou/tcaron src/cacute/ccaron ç/ccircumflex/cdotaccent/idotless a/abreve/abreveacute/abrevedotbelow `/gravecomb/brevecomb_gravecomb/abrevegrave/abrevehookabove/abrevetilde â/acircumflexacute/acircumflexdotbelow/acircumflexgrave/acircumflexhookabove/tilde/tildecomb/tildecomb.case ÃÑ/Ohorntilde Õ/Otildemacron U/Uhorn/Uhornacute/Uhorndotbelow/Uhorngrave/Uhornhookabove/Uhorntilde/Uhorntilde/Utilde Y/Ytilde ã/etilde/itilde ñ/ohorntilde õ\012¯/macroncomb a/amacron/emacron/imacron/odieresismacron/odotaccentmacron/omacron/otildemacron/umacron/ymacron/macronbelowcomb o/tildecomb/otildemacron/uhorntilde/utilde/ytilde/brevecomb_tildecomb/circumflexcomb_tildecomb/circumflexcomb_tildecomb/acircumflextilde/dblgravecomb/adblgrave ä/adotbelow",
-"añó/obreve ô/ocircumflexacute/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/cacute/ccaron/ccircumflex/cdotaccent/gbreve/gcaron é/Etilde/tcaron/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde â/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde/adblgrave ä"
+"añó/obreve ô/ocircumflexacute/ocircumflexgrave/ocircumflexhookabove/ocircumflextilde/cacute/ccaron/ccircumflex/cdotaccent/gbreve/gcaron é/ebreve/ecaron ê/ecircumflexacute/ecircumflexdotbelow/ecircumflexgrave/ecircumflexhookabove/ecircumflextilde/edblgrave ë/edotaccent/edotbelow è/ehookabove/einvertedbreve/emacron/eogonek/etilde/Etilde/tcaron/abreveacute/abrevedotbelow/abrevegrave/abrevehookabove/abrevetilde â/acircumflexacute/acircumflexgrave/acircumflexhookabove/acircumflextilde/adblgrave ä"
 );
-copyright = "Copyright  2010 by Robert E. Leuschke -- This font is not Shareware and may not be copied, sold, distributed or shared without permission from Gideon, Inc. All rights reserved.";
+copyright = "Copyright 2010 The Allura Project Authors (https://github.com/googlefonts/allura)";
 customParameters = (
 {
-name = trademark;
-value = "AlluraPro-Regular is a trademark of Robert E. Leuschke.";
-},
-{
 name = licenseURL;
-value = "http://www.typesetit.com/license.html";
+value = "https://scripts.sil.org/OFL";
 },
 {
 name = license;
-value = "End User's License Agreement         Notice to user: By installing this font on your computer, you accept all the terms and conditions of this agreement. If you do not agree with the terms and conditions of this Agreement, destroy the original copies of the Font Software, and cease all use of the Font Software.\012This agreement pertains to software program formats which include one or more of the following: A) \"Outline Fonts\" (PostScriptTM file for Macintosh) B) \"Bitmap Fonts\" (related documentation and data which works in combination with the PostScriptTM file) C) \"TrueType Fonts\" (Suitcase file, or TTF WindowsTM file) D) \"OpenType Fonts\" (for use on Windows, Macintosh or Linux Operating Systems)\012This software contains metric information, digitally encoded machine readable Typeface programs. Listed items A through D underlined above are mutually referred to as \"the Font Software.\" In return for acquiring a license to use the Font Software and documentation, you agree to the following terms and conditions:Q. USAGE. You agree that you will use the the Font Software to reproduce and display typefaces solely for the customary purposes of printing on devices located at a specific and singular local premise. The maximum number of simultaneous users is specified in the applicable receipt.R. Proprietary Rights and obligations. The structure and organization of the Font Software are the valuable and exclusive property of Robert E. Leuschke and his suppliers and distributors. You will not make nor have made, nor permit to be made, any copies of the Font Software or any portions thereof, except one (1) copy solely for backup purposes or such copies as are necessary for the installation of the Font Software in accordance with the terms of this Agreement. Any copies of the Font Software shall contain the same proprietary notices which are contained in or on the Font Software. You agree not to modify, adapt, translate, manipulate, change, reverse engineer, decompile, disassemble, or create derivative works based upon the design of the Font Software. Trademarks shall be used in accordance with accepted trademark practice, including identification of trademark owners name. a) You may embed copies of the font software into your electronic documents for the purpose of printing and viewing the document. No other embedding rights are implied or permitted under this license. b) Access to the Font Software by third parties via access through internet connection is prohibited, unless a separate written agreement has been negotiated.S. Assignment. You may not assign your rights under this agreement to a third party. Should you prefer to terminate this Agreement, all copies of the Font Software must be transferred or returned to Robert E. Leuschke, or destroyed. Except as set forth by the above, you may not assign your rights under this Agreement or rent, lease, loan, distribute or otherwise transfer the Font Software. You agree that the Font Software is for use exclusively in accordance with the sovereign laws of the United States of America and will not be shipped, transferred, or exported into any country or used in any manner prohibited by the laws of the United States of America and by the United States Export Administration Act.T. No Other Rights. Robert E. Leuschke and his suppliers and distributors retain title and ownership of the Font Software, the media upon which it is recorded, and all subsequent copies of the Font Software, regardless of the form or media in or upon which the original and other copies may exist. Except as stated above, this Agreement does not grant you any rights to intellectual property rights in the Font Software. The use of any trademark as herein authorized does not give you any right of ownership in that trademark.U. Term. This license is effective until terminated. Robert E. Leuschke has the right to terminate your license immediately if you fail to comply with any term of this Agreement. Upon any such termination, you will destroy the original copies of the Font Software, and related documentation and cease all use of the Font Software and trademarks.V. Limited Warranty. (a) This Limited Warranty and any implied warranties are effective for a period of ninety (90) days from the date of delivery (\"Limited Warranty Period\") of the Font Software. Evidence of such Limited Warranty Period shall be determined by a copy of your receipt which shall accompany the Font Software. The Font Software shall be free from deliberate errors under normal use and service for a period of ninety (90) days after delivery to you. For the purposes of this agreement, an \"error\" shall be any flaw in the Font Format which causes improper reproduction when used properly on a computer device. You must do one of the following: Report all errors and return the Font Software to Robert E. Leuschke, or report all errors and destroy any and all of your copies of the Font Software. (b) If the software fails to comply with this warranty, Robert E. Leuschke at his option and discretion, will replace the Font Software media not meeting the warranty. No refunds shall be given for the Font Software. If failure of the Font Software media has resulted from accident, abuse, or misapplication of the product, then Robert E. Leuschke shall not be responsible for the replacement of the Font Software media under this Limited Warranty. (c) Robert E. Leuschke does not and cannot warranty the performance or results you may obtain by using the Font Software or its documentation. The foregoing states the sole and exclusive remedies for Robert E. Leuschke's breach of Warranty. Except for the foregoing Limited Warranty, Robert E. Leuschke makes no Warranties expressed or implied as to non-infringement of third party rights, or fitness for a particular purpose. (d) Some jurisdictions do not allow the exclusion of implied warranties or limitations on how long an implied warranty may last, so the above limitations may not apply to you. This warranty gives you specific legal rights concerning the Font Software and its usage. You may have other rights which vary from state to state and country to country. For further warranty information in regard to your local jurisdiction, contact legal representation in your area.W. Limit of liability. (a) You further agree that any such legal liabilities incurred by any parties resulting from a default of this Agreement shall be the sole responsibility of your company. (b) In no way will Robert E. Leuschke be liable to you for any consequential or incidental damages, including any lost profits or lost savings, or for any claim by any party. (c) Some jurisdictions do not allow the exclusion or limitation of incidental or consequential damages, so the above limitation or exclusion may not apply to you.\012. Governing Laws. This Agreement will be governed by the laws in force in the State of Missouri, in the United States of America, excluding the application of its conflicts of law rules. This Agreement will not be governed by the United Nations Convention on Contracts for the International Sale of Goods, the application of which is expressly excluded.\012. Entire Agreement. You acknowledge that you have read this agreement, understand it and that it is the complete and exclusive statement of your agreement with Robert E. Leuschke; which supersedes any prior agreement, oral or written, and any other communications between Robert E. Leuschke and you1 relating to the subject matter of this agreement; and that your obligations under this agreement shall inure to the benefit of Robert E. Leuschke's licensors whose rights are licensed under this agreement. No variation of the terms of this agreement will be enforceable against Robert E. Leuschke unless Robert E. Leuschke gives his expressed, Written and signed consent.";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 },
 {
 name = vendorID;
-value = "    ";
-},
-{
-name = panose;
-value = (
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0
-);
+value = GOOG;
 },
 {
 name = unicodeRanges;
@@ -85,11 +66,15 @@ Name = Weight;
 Tag = wght;
 }
 );
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2021-03-11 16:28:41 +0000";
 designer = "Robert E. Leuschke";
-designerURL = "http://www.typesetit.com";
+designerURL = www.typesetit.com;
 disablesNiceNames = 1;
 familyName = Allura;
 featurePrefixes = (
@@ -86717,9 +86702,100 @@ note = Delta.001;
 },
 {
 glyphname = Sigma.001;
-lastChange = "2021-05-31 01:44:35 +0000";
+lastChange = "2021-06-02 01:34:42 +0000";
 layers = (
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"446 -27 OFFCURVE",
+"506 38 OFFCURVE",
+"506 61 CURVE SMOOTH",
+"506 69 OFFCURVE",
+"503 73 OFFCURVE",
+"499 73 CURVE SMOOTH",
+"497 73 OFFCURVE",
+"494 72 OFFCURVE",
+"492 69 CURVE SMOOTH",
+"470 36 OFFCURVE",
+"435 23 OFFCURVE",
+"392 23 CURVE SMOOTH",
+"342 23 OFFCURVE",
+"165 52 OFFCURVE",
+"107 74 CURVE",
+"134 102 OFFCURVE",
+"312 254 OFFCURVE",
+"312 254 CURVE",
+"340 266 OFFCURVE",
+"348 273 OFFCURVE",
+"348 281 CURVE SMOOTH",
+"348 283 OFFCURVE",
+"347 287 OFFCURVE",
+"345 291 CURVE",
+"345 291 OFFCURVE",
+"176 449 OFFCURVE",
+"159 465 CURVE",
+"220 477 OFFCURVE",
+"300 482 OFFCURVE",
+"372 482 CURVE SMOOTH",
+"444 482 OFFCURVE",
+"492 479 OFFCURVE",
+"492 441 CURVE SMOOTH",
+"492 426 OFFCURVE",
+"482 409 OFFCURVE",
+"482 401 CURVE SMOOTH",
+"482 396 OFFCURVE",
+"484 395 OFFCURVE",
+"488 395 CURVE SMOOTH",
+"498 395 OFFCURVE",
+"521 432 OFFCURVE",
+"521 458 CURVE SMOOTH",
+"521 499 OFFCURVE",
+"472 524 OFFCURVE",
+"404 524 CURVE SMOOTH",
+"393 524 OFFCURVE",
+"382 524 OFFCURVE",
+"369 524 CURVE SMOOTH",
+"344 523 OFFCURVE",
+"166 509 OFFCURVE",
+"142 504 CURVE",
+"136 515 OFFCURVE",
+"118 521 OFFCURVE",
+"101 521 CURVE SMOOTH",
+"83 521 OFFCURVE",
+"66 513 OFFCURVE",
+"66 495 CURVE SMOOTH",
+"66 476 OFFCURVE",
+"87 455 OFFCURVE",
+"112 447 CURVE",
+"121 436 OFFCURVE",
+"285 268 OFFCURVE",
+"285 268 CURVE",
+"285 268 OFFCURVE",
+"182 172 OFFCURVE",
+"83 79 CURVE",
+"40 79 OFFCURVE",
+"-4 42 OFFCURVE",
+"-5 -7 CURVE SMOOTH",
+"-5 -13 OFFCURVE",
+"-2 -16 OFFCURVE",
+"1 -16 CURVE SMOOTH",
+"7 -16 OFFCURVE",
+"27 -11 OFFCURVE",
+"45 7 CURVE",
+"45 9 LINE",
+"60 20 OFFCURVE",
+"74 33 OFFCURVE",
+"80 40 CURVE",
+"176 0 OFFCURVE",
+"354 -27 OFFCURVE",
+"365 -27 CURVE SMOOTH"
+);
+}
+);
+};
 layerId = "BDD3FA2A-F197-48C4-9241-A354346F8EDC";
 paths = (
 {
@@ -121710,6 +121786,7 @@ space = 128.89799;
 };
 };
 manufacturer = "Robert E. Leuschke";
+manufacturerURL = www.typesetit.com;
 unitsPerEm = 1000;
 versionMajor = 2;
 versionMinor = 1;
