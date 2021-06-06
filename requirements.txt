@@ -1,4 +1,3 @@
-fontmake
 fontbakery
-git+https://github.com/googlefonts/gftools
+gftools
 brotli

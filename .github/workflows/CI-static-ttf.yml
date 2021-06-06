@@ -3,12 +3,12 @@ name: CI Static ttf
 on: #push
   push:
     branches: 
-    - master
+    - main
     paths:
     - sources/**
   pull_request:
     branches: 
-    - master
+    - main
     paths:
     - sources/**
 
