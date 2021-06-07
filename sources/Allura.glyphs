@@ -172,56 +172,30 @@ name = lookup_1;
 },
 {
 automatic = 1;
-code = "languagesystem DFLT dflt;\012\012languagesystem latn dflt;\012languagesystem latn CAT;\012languagesystem latn MOL;\012";
+code = "languagesystem DFLT dflt;\012\012languagesystem latn dflt;\012languagesystem latn AZE;\012languagesystem latn CRT;\012languagesystem latn KAZ;\012languagesystem latn TAT;\012languagesystem latn TRK;\012languagesystem latn ROM;\012languagesystem latn MOL;\012languagesystem latn CAT;\012";
 name = Languagesystems;
 }
 );
 features = (
 {
 automatic = 1;
-code = "feature frac;\012feature hist;\012feature locl;\012feature ordn;\012feature sups;\012feature swsh;\012feature lnum;\012feature onum;\012feature case;\012";
+code = "feature sups;\012feature frac;\012feature locl;\012feature ordn;\012feature swsh;\012feature lnum;\012feature onum;\012feature case;\012feature hist;\012";
 name = aalt;
 },
 {
-code = "sub f i by fi.001;\012sub f l by fl.001;\012sub i t by i_t;\012sub p p by p_p;\012sub s t by s_t;\012sub longs t by longs_t;\012sub t h by t_h;\012";
-name = dlig;
-},
-{
-code = "sub one slash two by onehalf;\012sub one slash four by onequarter;\012sub three slash four by threequarters;\012";
-name = frac;
-},
-{
-code = "sub s by longs;\012";
-name = hist;
-},
-{
-code = "sub longs t by longs_t;\012";
-name = hlig;
-},
-{
-code = "sub f i by fi;\012sub f l by fl;\012";
-name = liga;
-},
-{
-code = "script latn;\012language CAT ;\012sub l' lookup lookup_0 periodcentered' lookup lookup_0 l ;\012sub L' lookup lookup_0 periodcentered' lookup lookup_0 L ;\012language MOL ;\012\012";
+automatic = 1;
+code = "lookup locl_latn_0 {\012	script latn;\012	language AZE;\012	language CRT;\012	language KAZ;\012	language TAT;\012	language TRK;\012	sub i by idotaccent;\012} locl_latn_0;\012\012lookup locl_latn_1 {\012	script latn;\012	language ROM;\012	language MOL;\012	sub Scedilla by Scommaaccent;\012	sub scedilla by scommaaccent;\012	sub Tcedilla by Tcommaaccent;\012	sub tcedilla by tcommaaccent;\012} locl_latn_1;\012\012lookup locl_latn_2 {\012	script latn;\012	language CAT;\012	sub l periodcentered' l by periodcentered.loclCAT;\012	sub L periodcentered' L by periodcentered.loclCAT;\012} locl_latn_2;\012";
 name = locl;
 },
 {
-code = "sub [zero one two three four five six seven eight nine] [A a]' lookup lookup_1 ;\012sub [zero one two three four five six seven eight nine] [O o]' lookup lookup_1 ;\012";
-name = ordn;
-},
-{
-code = "sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012";
+automatic = 1;
+code = "sub one by onesuperior;\012sub two by twosuperior;\012sub three by threesuperior;\012sub four by foursuperior;\012";
 name = sups;
 },
 {
-code = "sub a by a.swash;\012sub b by b.swash;\012sub c by c.swash;\012sub d by d.swash;\012sub e by e.swash;\012sub f by f.swash;\012sub g by g.swash;\012sub h by h.swash;\012sub i by i.swash;\012sub j by j.swash;\012sub k by k.swash;\012sub l by l.swash;\012sub m by m.swash;\012sub n by n.swash;\012sub o by o.swash;\012sub p by p.swash;\012sub q by q.swash;\012sub r by r.swash;\012sub s by s.swash;\012sub t by t.swash;\012sub u by u.swash;\012sub v by v.swash;\012sub w by w.swash;\012sub x by x.swash;\012sub y by y.swash;\012sub z by z.swash;\012";
-name = swsh;
-},
-{
 automatic = 1;
-code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb commaaccent dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [dieresiscomb dotaccentcomb hungarumlautcomb caroncomb ringcomb tildecomb macroncomb commaturnedabovecomb brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb];\012	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case hungarumlautcomb.case caroncomb.case ringcomb.case tildecomb.case macroncomb.case commaturnedabovecomb.case brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_latn_1 {\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012} ccmp_latn_1;\012\012script latn;\012lookup ccmp_latn_1;\012";
-name = ccmp;
+code = "sub one slash four by onequarter;\012sub one slash two by onehalf;\012sub three slash four by threequarters;\012";
+name = frac;
 },
 {
 automatic = 1;
@@ -237,6 +211,38 @@ name = onum;
 automatic = 1;
 code = "sub dieresiscomb by dieresiscomb.case;\012sub dotaccentcomb by dotaccentcomb.case;\012sub hungarumlautcomb by hungarumlautcomb.case;\012sub caroncomb by caroncomb.case;\012sub ringcomb by ringcomb.case;\012sub tildecomb by tildecomb.case;\012sub macroncomb by macroncomb.case;\012sub commaturnedabovecomb by commaturnedabovecomb.case;\012sub brevecomb_acutecomb by brevecomb_acutecomb.case;\012sub brevecomb_gravecomb by brevecomb_gravecomb.case;\012sub brevecomb_hookabovecomb by brevecomb_hookabovecomb.case;\012sub brevecomb_tildecomb by brevecomb_tildecomb.case;\012sub circumflexcomb_acutecomb by circumflexcomb_acutecomb.case;\012sub circumflexcomb_gravecomb by circumflexcomb_gravecomb.case;\012sub circumflexcomb_hookabovecomb by circumflexcomb_hookabovecomb.case;\012sub circumflexcomb_tildecomb by circumflexcomb_tildecomb.case;\012sub zero.osf by zero.lf;\012sub one.osf by one.lf;\012sub two.osf by two.lf;\012sub three.osf by three.lf;\012sub four.osf by four.lf;\012sub five.osf by five.lf;\012sub six.osf by six.lf;\012sub seven.osf by seven.lf;\012sub eight.osf by eight.lf;\012sub nine.osf by nine.lf;\012";
 name = case;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;\012sub i t by i_t;\012sub longs t by longs_t;\012sub p p by p_p;\012sub s t by s_t;\012sub t h by t_h;\012sub f i by fi.001;\012sub f l by fl.001;\012";
+name = dlig;
+},
+{
+code = "sub longs t by longs_t;\012";
+name = hlig;
+},
+{
+automatic = 1;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;\012sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;\012sub N o period by numero;\012";
+name = ordn;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;\012sub f f i by f_f_i;\012sub f f l by f_f_l;\012sub f f by f_f;\012sub f i by fi;\012sub f l by fl;\012";
+name = liga;
+},
+{
+code = "sub a by a.swash;\012sub b by b.swash;\012sub c by c.swash;\012sub d by d.swash;\012sub e by e.swash;\012sub f by f.swash;\012sub g by g.swash;\012sub h by h.swash;\012sub i by i.swash;\012sub j by j.swash;\012sub k by k.swash;\012sub l by l.swash;\012sub m by m.swash;\012sub n by n.swash;\012sub o by o.swash;\012sub p by p.swash;\012sub q by q.swash;\012sub r by r.swash;\012sub s by s.swash;\012sub t by t.swash;\012sub u by u.swash;\012sub v by v.swash;\012sub w by w.swash;\012sub x by x.swash;\012sub y by y.swash;\012sub z by z.swash;\012";
+name = swsh;
+},
+{
+automatic = 1;
+code = "lookup ccmp_Other_1 {\012	@CombiningTopAccents = [acutecomb brevecomb breveinvertedcomb caroncomb circumflexcomb commaturnedabovecomb dblgravecomb dieresiscomb dotaccentcomb gravecomb hookabovecomb hungarumlautcomb macroncomb ringcomb tildecomb];\012	@CombiningNonTopAccents = [brevebelowcomb cedillacomb commaaccent dieresisbelowcomb dotbelowcomb macronbelowcomb ogonekcomb horncomb strokeshortcomb];\012	sub [i j]' @CombiningTopAccents by [idotless jdotless];\012	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];\012	@Markscomb = [dieresiscomb dotaccentcomb hungarumlautcomb caroncomb ringcomb tildecomb macroncomb commaturnedabovecomb brevecomb_acutecomb brevecomb_gravecomb brevecomb_hookabovecomb brevecomb_tildecomb circumflexcomb_acutecomb circumflexcomb_gravecomb circumflexcomb_hookabovecomb circumflexcomb_tildecomb];\012	@MarkscombCase = [dieresiscomb.case dotaccentcomb.case hungarumlautcomb.case caroncomb.case ringcomb.case tildecomb.case macroncomb.case commaturnedabovecomb.case brevecomb_acutecomb.case brevecomb_gravecomb.case brevecomb_hookabovecomb.case brevecomb_tildecomb.case circumflexcomb_acutecomb.case circumflexcomb_gravecomb.case circumflexcomb_hookabovecomb.case circumflexcomb_tildecomb.case];\012	sub @Markscomb @Markscomb' by @MarkscombCase;\012	sub @Uppercase @Markscomb' by @MarkscombCase;\012} ccmp_Other_1;\012\012lookup ccmp_Other_2 {\012	sub @Markscomb' @MarkscombCase by @MarkscombCase;\012	sub @MarkscombCase @Markscomb' by @MarkscombCase;\012} ccmp_Other_2;\012\012lookup ccmp_latn_1 {\012	lookupflag 0;\012	sub brevecomb acutecomb by brevecomb_acutecomb;\012	sub brevecomb gravecomb by brevecomb_gravecomb;\012	sub brevecomb hookabovecomb by brevecomb_hookabovecomb;\012	sub brevecomb tildecomb by brevecomb_tildecomb;\012	sub circumflexcomb acutecomb by circumflexcomb_acutecomb;\012	sub circumflexcomb gravecomb by circumflexcomb_gravecomb;\012	sub circumflexcomb hookabovecomb by circumflexcomb_hookabovecomb;\012	sub circumflexcomb tildecomb by circumflexcomb_tildecomb;\012} ccmp_latn_1;\012\012script latn;\012lookup ccmp_latn_1;\012";
+name = ccmp;
+},
+{
+code = "sub s by longs;";
+name = hist;
 }
 );
 fontMaster = (
