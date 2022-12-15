@@ -2,7 +2,7 @@
 
 The casual characters of Allura are simple and clean and very legible, with an almost handwritten calligraphic appeal. The script and formal sets offer a softer, more formal look. This exceptionally diverse font was designed with advertising, display and package design in mind. This OpenType Pro version of Allura combines all three styles along with extra alternate glyphs and flourished graphics to give designers maximum flexibility.
 
-![Sample Image](documentation/image1.png)
+![Sample Image](Documentation/image1.png)
 
 ## Building the Fonts
 
