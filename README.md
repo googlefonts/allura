@@ -1,4 +1,8 @@
+# Allura
+
 The casual characters of Allura are simple and clean and very legible, with an almost handwritten calligraphic appeal. The script and formal sets offer a softer, more formal look. This exceptionally diverse font was designed with advertising, display and package design in mind. This OpenType Pro version of Allura combines all three styles along with extra alternate glyphs and flourished graphics to give designers maximum flexibility.
+
+![Sample Image](documentation/image1.png)
 
 ## Building the Fonts
 
@@ -9,22 +13,26 @@ To install all the Python tools into a virtualenv, do the following:
 From terminal:
 
 ```
-
 cd your/local/project/directory
+```
 
-#once in the project folder create a virtual environment. 
+Once in the project folder create a virtual environment. 
 This step has to be done just once, the first time:
 
+```
 python3 -m venv venv
+```
 
-#activate the virtual environment
+Activate the virtual environment
 
+```
 source venv/bin/activate
+```
 
-#install the required dependencies
+Install the required dependencies
 
+```
 pip install -r requirements.txt
-
 ```
 
 Then run the this command:
